@@ -13,7 +13,7 @@ public class HomeFrame extends JFrame {
 		homeFrame.setBounds(90, 20, 100, 20);
 		
 		loginSucess=new JLabel("WELCOME "+model.getUserName());
-		loginSucess.setBounds(90, 20, 100, 20);
+		loginSucess.setBounds(50, 60, 150, 20);
 
 		add(homeFrame);
 		add(loginSucess);
